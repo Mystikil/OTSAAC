@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.name }} :: Warzone</title>
+    {{ yield:styles }}
+    {{ yield:head }}
+</head>
+<body class="theme-warzone">
+    {{ partial:header }}
+    <div class="hero">
+        <!-- placeholder for hero banner -->
+        <h1>{{ site.name }}</h1>
+    </div>
+    <section class="content">
+        {{ partial:alerts }}
+        {{ yield:content }}
+    </section>
+    {{ partial:footer }}
+    {{ yield:scripts }}
+</body>
+</html>

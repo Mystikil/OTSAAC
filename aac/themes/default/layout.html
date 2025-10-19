@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.name }}</title>
+    {{ yield:styles }}
+    {{ yield:head }}
+</head>
+<body class="theme-default">
+    {{ partial:header }}
+    <main class="container">
+        {{ partial:alerts }}
+        {{ yield:content }}
+    </main>
+    {{ partial:footer }}
+    {{ yield:scripts }}
+</body>
+</html>
