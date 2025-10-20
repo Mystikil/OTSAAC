@@ -1,0 +1,13 @@
+{
+    "name": "aac/platform",
+    "description": "Portable AAC website",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Modules\\": "modules/"
+        }
+    },
+    "require": {}
+}

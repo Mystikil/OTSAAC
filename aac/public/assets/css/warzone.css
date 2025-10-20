@@ -1,0 +1,17 @@
+.theme-warzone {
+    background: #111;
+    color: #eee;
+    min-height: 100vh;
+}
+.warzone-header {
+    background: #550000;
+    padding: 1rem;
+}
+.warzone-content {
+    padding: 2rem;
+}
+.warzone-footer {
+    background: #220000;
+    padding: 1rem;
+    text-align: center;
+}
