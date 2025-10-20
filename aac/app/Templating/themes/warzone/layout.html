@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{{ site.name }} - Warzone</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{{ asset('css/core.css') }}">
+<link rel="stylesheet" href="{{ asset('css/warzone.css') }}">
+</head>
+<body class="theme-warzone">
+<div class="warzone-header">{{ include_partial:nav }}</div>
+<section class="warzone-content">
+{{ yield:alerts }}
+{{ yield:content }}
+</section>
+<footer class="warzone-footer">{{ include_partial:footer }}</footer>
+<script src="{{ asset('js/core.js') }}"></script>
+</body>
+</html>
